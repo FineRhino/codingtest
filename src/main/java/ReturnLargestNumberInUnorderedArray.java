@@ -7,21 +7,6 @@
  */
 public class ReturnLargestNumberInUnorderedArray {
 
-    public static void main (String[] args){
-        long numbers[] = new long[4];
-        numbers[0] = 12L;
-        numbers[1] = 3L;
-        numbers[2] = 9000L;
-        numbers[3] = 1L;
-
-        long finalNumber = returnLargestNumberinUnorderedArray(numbers);
-        System.out.println("Final Number is " + finalNumber);
-
-        long numbersTwo[] = new long[0];
-        long finalNumberTwo = returnLargestNumberinUnorderedArray(numbersTwo);
-        System.out.println("Final Number is " + finalNumberTwo);
-    }
-
     public static long returnLargestNumberinUnorderedArray(long[] numbers) {
         long largestNumber = 0L;
         long oldNumber = 0L;

@@ -1,13 +1,6 @@
 public class WordCount {
 
-    public static void main(String[] args){
-
-        String str = "This is a sample sentence";
-        int wordCount = countWords(str);
-        System.out.println("Word Count is " + wordCount);
-    }
-
-    public static int countWords(String str){
+   public static int countWords(String str){
         int count=0;
         char ch[]= new char[str.length()];
         for(int i=0;i<str.length();i++)
