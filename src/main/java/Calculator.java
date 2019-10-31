@@ -26,4 +26,15 @@ public class Calculator {
         return quotient;
     }
 
+    public double mean(double[] nums) {
+        double mean = 0;
+        double sum  = 0;
+        int n = nums.length;
+        for (int i=0; i < nums.length; i++){
+            sum = sum + nums[i];
+        }
+        mean = sum/n;
+        return mean;
+    }
+
 }

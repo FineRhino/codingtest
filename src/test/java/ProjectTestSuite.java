@@ -7,7 +7,8 @@ import org.junit.runners.Suite.SuiteClasses;
         TestAnagram.class,
         TestCalculator.class,
         TestReturnLargestNumberInUnorderedArray.class,
-        TestWordCount.class})
+        TestWordCount.class,
+        TestAmortization.class})
 public class ProjectTestSuite {
     // code relevant to test suite goes here
 }

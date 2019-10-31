@@ -53,4 +53,12 @@ public class TestCalculator {
         assertEquals(3.98, c.subtract(a, b), .01);   //expected, actual, epsilon (acceptable variance)
     }
 
+    @Test
+    public void testAverage(){
+        double[] nums = {8.19, 3.98, 11.52, -1.06, 12.97, 15};
+        Calculator c = new Calculator();
+
+        //assertions
+        assertEquals(8.43, c.mean(nums), .01);   //expected, actual, epsilon (acceptable variance)
+    }
 }
